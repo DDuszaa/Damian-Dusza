@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Korona tour sp zoo</title>
+</head>
+<body>
+    <header>
+        <h1>Wczasy nad bałtykiem</h1>
+    </header>
+    <section>
+      <aside class="lewy">
+        <h1 style="color: purple;">Formularz zgłoszeniowy</h1>
+        <form method="post">
+            <table>
+                <tr>
+                 <td>Podaj liczbę dorosłych:</td><td><input class="dane" type="number" name="" id="dorosli"></td>
+                </tr>
+                <tr>
+                    <td>Podaj liczbę dzieci:</td><td><input class="dane" type="number" name="" id="dzieci"></td>
+                </tr>
+                <tr>
+                    <td>Podaj Liczbę dni:</td><td><input class="dane" type="number" name="" id="dni"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align:="right" style="display: flex;
+                    flex-direction: row;
+                    justify-content: center;">
+                        <input type="button" value="Oblicz" class="button" id="przycisk" onclick="przelicz()">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <div id="wynik">
+ 
+        </div>
+      </aside>
+      <aside class="prawy">
+        <div class="tlo">
+            <h5>Galeria zdjęć</h5>
+            <ul>
+                <li><img src="b1.png" alt=""></li>
+                <li><img src="b2.jfif" alt=""></li>
+                <li><img src="b3.png" alt=""></li>
+                <li><img src="b4.jpg" alt=""></li>
+                <li><img src="b5.png" alt=""></li>
+                <li><img src="b6.jpg" alt=""></li>
+            </ul>
+        </div>
+      </aside>
+    </section>
+    <footer>
+        <h2>Korona Tour Sp z.o.o</h2>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
